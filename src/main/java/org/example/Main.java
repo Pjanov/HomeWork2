@@ -38,7 +38,7 @@ public class Main {
         String string = str.toLowerCase(); // Преобразует все символы в этой строке в нижний регистр
         StringBuilder rev = new StringBuilder(string);
         rev.reverse(); // Приводит к замене этой последовательности символов на обратную последовательности.
-        return rev.toString().equals(string);
+        return rev.toString().equals(string); // equals сравнивает два объекта на равенство, возвращает true или false
     }
 
     /**
